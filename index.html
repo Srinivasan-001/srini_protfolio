@@ -171,31 +171,19 @@
 	<section id="contact-form">
 		<form action="mailto:srinibai2005@gmail.com" method="post" enctype="text/plain">
 		<!--left--------------------------------------->
-		<div class="contact-left">
-		<h1 class="c-l-heading"><font style="border-bottom: 3px solid #1ED98B;">Writ</font>e us</h1>
-		<!--name-------->
-		<div class="f-name">
-		<font >Name</font>
-		<input type="text" placeholder="Full Name"/>
-		</div>
-		<!--email-------->
-		<div class="f-email">
-		<font >Email</font>
-		<input type="email" placeholder="Example@gmail.com"/>
-		</div>
-		</div>
-		<!--right------------------------------------------->
-		<div class="contact-right">
-		<!--message-------->
-		<div class="message">
-		<font >Message</font>
-		<textarea name="message" rows="5" cols="20" placeholder="Write Message..."></textarea>
-		</div>
-		<!--submit-btn------------>
-		<button>submit</button>
-		</div>
-			
-		</form>
+		<form action="mailto:srinibai2005@gmail.com" method="post" enctype="text/plain">
+		<!--left--------------------------------------->
+		<label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+    
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+    
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" required></textarea>
+    
+    <button type="submit">Submit</button>
+</form>
 		
 		</section>
 	
