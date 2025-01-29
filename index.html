@@ -169,23 +169,36 @@
 	</section>
 	<!--contact-form------------------->
 	<section id="contact-form">
-		<form action="mailto:srinibai2005@gmail.com" method="post" enctype="text/plain">
-		<!--left--------------------------------------->
-		<form action="mailto:srinibai2005@gmail.com" method="post" enctype="text/plain">
-		<!--left--------------------------------------->
-		<label for="name">Name:</label>
-    <input type="text" id="name" name="name" required>
-    
-    <label for="email">Email:</label>
-    <input type="email" id="email" name="email" required>
-    
-    <label for="message">Message:</label>
-    <textarea id="message" name="message" required></textarea>
-    
-    <button type="submit">Submit</button>
-</form>
-		
-		</section>
+    <form action="mailto:usermail@gmail.com" method="post" enctype="text/plain">
+        <!-- Left Side -->
+        <div class="contact-left">
+            <h1 class="c-l-heading">
+                <font style="border-bottom: 3px solid #1ED98B;">Write</font> us
+            </h1>
+            <!-- Name Field -->
+            <div class="f-name">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Full Name" required />
+            </div>
+            <!-- Email Field -->
+            <div class="f-email">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Example@gmail.com" required />
+            </div>
+        </div>
+        <!-- Right Side -->
+        <div class="contact-right">
+            <!-- Message Field -->
+            <div class="message">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" cols="20" placeholder="Write Message..." required></textarea>
+            </div>
+            <!-- Submit Button -->
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+</section>
+
 	
 	<script type="text/javascript" src="js/JQuery3.3.1.js"></script>
 	<script type="text/javascript">
